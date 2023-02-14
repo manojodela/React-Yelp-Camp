@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+
+
+a.card.btn.bg-white.text-black.font-weight-bold
+{
+color: white;
+background-color: rgb(3, 3, 34) !important;
+}

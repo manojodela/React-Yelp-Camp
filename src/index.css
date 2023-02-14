@@ -11,3 +11,76 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+body {
+  background-color: #f9f6f1 !important;
+}
+
+span.error_validation {
+  font-size: 14px;
+  color: red;
+  margin-left: 0px !important
+}
+
+.submit-button {
+  background: #2e384d 0% 0% no-repeat padding-box !important;
+  border-radius: 5px;
+  border-color: #2e384d !important;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600
+}
+
+.submit-button:hover {
+  background: #2e384d 0% 0% no-repeat padding-box !important;
+  border-radius: 5px;
+  border-color: #2e384d !important
+}
+
+
+.PhoneInput {
+  display: flex;
+  align-items: center
+}
+
+.PhoneInputCountry {
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  margin-right: .35em;
+  margin-right: var(--PhoneInputCountrySelect-marginRight)
+}
+
+.PhoneInputCountrySelect {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  border: 0;
+  opacity: 0;
+  cursor: pointer
+}
+
+.PhoneInputCountryIcon--border {
+  background-color: rgba(0, 0, 0, .1);
+  background-color: var(--PhoneInputCountryFlag-backgroundColor--loading);
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, .5), inset 0 0 0 1px rgba(0, 0, 0, .5);
+  box-shadow: 0 0 0 var(--PhoneInputCountryFlag-borderWidth) var(--PhoneInputCountryFlag-borderColor), inset 0 0 0 var(--PhoneInputCountryFlag-borderWidth) var(--PhoneInputCountryFlag-borderColor)
+}
+
+.PhoneInputCountryIconImg {
+  width: 30px;
+  height: 30px
+}
+
+.PhoneInputInput {
+  border: 0;
+  margin-left: 10px
+}
+
+.line-height {
+  line-height: 35px
+}

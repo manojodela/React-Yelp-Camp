@@ -1,0 +1,21 @@
+.card-desc{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+}
+
+li{
+    list-style: none;
+    padding: 10px ;
+}
+
+@media screen and (max-width:450px){
+    .button{
+        display: inline-block;
+    }
+}

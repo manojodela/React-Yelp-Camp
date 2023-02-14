@@ -1,0 +1,39 @@
+.bg-color {
+    background-color: #f9f6f1;
+}
+
+.card-img-top {
+    height: 13rem;
+}
+
+.gap {
+    gap: 15px 0;
+}
+
+@media screen and (max-width: 540px) {
+    .w-50.m-auto {
+        width: fit-content !important;
+        text-align: center;
+    }
+
+    .w-75 {
+        width: auto !important;
+    }
+
+    .search {
+        margin-bottom: 5px;
+    }
+
+    .rounded {
+        width: inherit !important;
+    }
+    .hide{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .w-50.m-auto{
+        width: fit-content !important;
+    }
+}

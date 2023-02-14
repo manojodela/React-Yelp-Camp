@@ -1,0 +1,37 @@
+.side-bg {
+    background-color: #f9f6f1;
+}
+
+input#name,
+input#pwd ,
+input#email{
+    background-color: #f9f6f1;
+}
+
+.container {
+    background-color: #f9f6f1;
+
+}
+
+@media screen and (max-width:500px) {
+    .w-50 {
+        width: 100% !important;
+        margin: 20px 0 !important;
+
+    }
+    .w-75{
+        width:  100% !important;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1440px) {
+    .container{
+        width: 75%;
+    }
+    .w-50{
+        margin-top: 20px !important;
+    }
+    form{
+        width: 85%;
+    }
+}

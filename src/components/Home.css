@@ -1,0 +1,65 @@
+body {
+    background-color: #f7f1f1;
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    font-weight: 800;
+}
+
+.desc {
+    font-size: 16px;
+    color: #939190;
+    padding-top: 5px;
+}
+
+ul {
+    padding-left: 0;
+    color: #939190;
+}
+
+li {
+    list-style: none;
+    padding: 5px;
+    padding-left: 0;
+}
+
+.campbtn {
+    background-color: #000;
+    color: #fff;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.campbtn:hover{
+    text-decoration: none;
+    color: black;
+    background-color: #ccc;
+}
+
+@media only screen and (max-width: 768px) {
+    .logo {
+        display: block;
+    }
+
+    .mobile {
+        flex-direction: column-reverse;
+        gap: 10px;
+        padding-top: 50px;
+    }
+    .desc{
+        width: 80%;
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    .title{
+        width: 80%;
+    }
+    .desc{
+        width: 80%;
+    }
+   
+}
