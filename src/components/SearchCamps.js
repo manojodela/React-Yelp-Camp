@@ -57,7 +57,7 @@ const SearchCamps = () => {
 
 
 
-    if (loading) {
+    if (loading && camps != 0) {
         return <h5 className='text-center'>loading....</h5>
     }
 
